@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "B1tYy8vFN6A=",
+  "dgSpecHash": "UZchvWDFabg=",
   "success": true,
-  "projectFilePath": "/Users/jerry/SpiderStock/SpiderStock.csproj",
+  "projectFilePath": "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj",
   "expectedPackageFiles": [
-    "/Users/jerry/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.18/microsoft.dotnet.ilcompiler.8.0.18.nupkg.sha512",
-    "/Users/jerry/.nuget/packages/microsoft.net.illink.tasks/8.0.18/microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
-    "/Users/jerry/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.20.1/microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512",
-    "/Users/jerry/.nuget/packages/runtime.osx-arm64.microsoft.dotnet.ilcompiler/8.0.18/runtime.osx-arm64.microsoft.dotnet.ilcompiler.8.0.18.nupkg.sha512"
+    "C:\\Users\\jerry.hsu\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.7\\microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512",
+    "C:\\Users\\jerry.hsu\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+    "C:\\Users\\jerry.hsu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512",
+    "C:\\Users\\jerry.hsu\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.7\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512"
   ],
   "logs": []
 }
