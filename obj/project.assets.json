@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.DotNet.ILCompiler/8.0.7": {
+      "Microsoft.DotNet.ILCompiler/8.0.18": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.7": {
+      "Microsoft.NET.ILLink.Tasks/8.0.18": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -24,10 +24,10 @@
     }
   },
   "libraries": {
-    "Microsoft.DotNet.ILCompiler/8.0.7": {
-      "sha512": "5Vkl5384rfKZmK7rVm8pjuMk2Cweaqd+rPwL86bddhInHdBg3ClO9H0cqwd7kXf+F8/aXuZxKAnl6izzaWkfUw==",
+    "Microsoft.DotNet.ILCompiler/8.0.18": {
+      "sha512": "tqfcjG/zm193qDP5FN0vdvqo0KpBzSpnu6M5IpZdn3sU5y0OS/dUrqqYrqlc6uaSlZEuHA5/wQNX4nd6ILx+Ew==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.7",
+      "path": "microsoft.dotnet.ilcompiler/8.0.18",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -46,7 +46,7 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.8.0.18.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
@@ -54,10 +54,10 @@
         "tools/netstandard/ILCompiler.Build.Tasks.pdb"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.7": {
-      "sha512": "iI52ptEKby2ymQ6B7h4TWbFmm85T4VvLgc/HvS45Yr3lgi4IIFbQtjON3bQbX/Vc94jXNSLvrDOp5Kh7SJyFYQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.18": {
+      "sha512": "OiXqr2YIBEV9dsAWEtasK470ALyJ0VxJ9k4MotOxlWV6HeEgrJKYMW4HHj1OCCXvqE0/A25wEKPkpfiBARgDZA==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.7",
+      "path": "microsoft.net.illink.tasks/8.0.18",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -71,7 +71,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -188,44 +188,31 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.DotNet.ILCompiler >= 8.0.7",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.7",
+      "Microsoft.DotNet.ILCompiler >= 8.0.18",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.18",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.20.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jerry.hsu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/jerry/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj",
+      "projectUniqueName": "/Users/jerry/SpiderStock/SpiderStock.csproj",
       "projectName": "SpiderStock",
-      "projectPath": "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj",
-      "packagesPath": "C:\\Users\\jerry.hsu\\.nuget\\packages\\",
-      "outputPath": "C:\\JerrySource\\SpiderStock\\SpiderStock\\obj\\",
+      "projectPath": "/Users/jerry/SpiderStock/SpiderStock.csproj",
+      "packagesPath": "/Users/jerry/.nuget/packages/",
+      "outputPath": "/Users/jerry/SpiderStock/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jerry.hsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jerry/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://pkgs.dev.azure.com/stackcore/Allnetgame/_packaging/allnetgameNuget%40Local/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/MiniGame/_packaging/MiniGameNuget/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/PlatformKR/_packaging/PlatformKRNuget-forum/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/PlatformKR/_packaging/PlatformKRNuget/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/PlatformMeme/_packaging/PlatformMeme-Nuget/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/PlatformX/_packaging/PlatformX/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/stackcore/Sports/_packaging/SportsNuget%40Local/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -251,13 +238,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.7, )",
+            "version": "[8.0.18, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.7, )",
+            "version": "[8.0.18, )",
             "autoReferenced": true
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
@@ -278,8 +265,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[8.0.7, 8.0.7]"
+            "name": "runtime.osx-arm64.Microsoft.DotNet.ILCompiler",
+            "version": "[8.0.18, 8.0.18]"
           }
         ],
         "frameworkReferences": {
@@ -290,7 +277,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
