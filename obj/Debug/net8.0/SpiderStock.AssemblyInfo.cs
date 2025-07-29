@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpiderStock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4cf143b07206eaab971c0f0c1afc5cca25b0611")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpiderStock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpiderStock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

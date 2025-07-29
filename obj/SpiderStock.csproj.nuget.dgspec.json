@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj": {}
+    "C:\\Users\\jerry.hsu\\Documents\\SpiderStock\\SpiderStock.csproj": {}
   },
   "projects": {
-    "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj": {
+    "C:\\Users\\jerry.hsu\\Documents\\SpiderStock\\SpiderStock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj",
+        "projectUniqueName": "C:\\Users\\jerry.hsu\\Documents\\SpiderStock\\SpiderStock.csproj",
         "projectName": "SpiderStock",
-        "projectPath": "C:\\JerrySource\\SpiderStock\\SpiderStock\\SpiderStock.csproj",
+        "projectPath": "C:\\Users\\jerry.hsu\\Documents\\SpiderStock\\SpiderStock.csproj",
         "packagesPath": "C:\\Users\\jerry.hsu\\.nuget\\packages\\",
-        "outputPath": "C:\\JerrySource\\SpiderStock\\SpiderStock\\obj\\",
+        "outputPath": "C:\\Users\\jerry.hsu\\Documents\\SpiderStock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
